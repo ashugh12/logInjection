@@ -1,0 +1,50 @@
+[
+  {
+    "level": "error",
+    "message": "Failed to connect to database.",
+    "resourceId": "server-1234",
+    "timestamp": "2023-09-15T08:00:00Z",
+    "traceId": "abc-xyz-123",
+    "spanId": "span-456",
+    "commit": "5e5342f",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Failed to connect to server",
+    "resourceId": "server-221",
+    "timestamp": "2025-07-02T13:05:29.484Z",
+    "traceId": "abc-def-ghi-jkl",
+    "spanId": "span-2221",
+    "commit": "4332s2",
+    "metadata": {
+      "parentResourceId": "server-5178"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Failed to connect to server",
+    "resourceId": "server-221",
+    "timestamp": "2025-07-02T13:32:51.084Z",
+    "traceId": "abc-def-ghi-jkl",
+    "spanId": "span-2221",
+    "commit": "4332s2",
+    "metadata": {
+      "user": "harsh"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Failed to connect to server",
+    "resourceId": "server-221",
+    "timestamp": "2025-07-02T13:33:55.557Z",
+    "traceId": "abc-def-ghi-jkl",
+    "spanId": "span-2221",
+    "commit": "4332s2",
+    "metadata": {
+      "user": "Ashutosh"
+    }
+  }
+]
