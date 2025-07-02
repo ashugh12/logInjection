@@ -5,7 +5,6 @@ const initialLog = {
   level: "info",
   message: "",
   resourceId: "",
-  timestamp: new Date().toISOString(),
   traceId: "",
   spanId: "",
   commit: "",
@@ -25,7 +24,11 @@ export default function AddLogForm({ onLogAdded }: { onLogAdded: () => void }) {
     e.preventDefault();
     setLoading(true);
     try {
-      const logToSend = { ...log, metadata: JSON.parse(log.metadata) };
+      const logToSend = {
+        ...log,
+        timestamp: new Date().toISOString(),
+        metadata: JSON.parse(log.metadata)
+      };
       await postLog(logToSend);
       setLog(initialLog);
       setError("");
@@ -57,10 +60,6 @@ export default function AddLogForm({ onLogAdded }: { onLogAdded: () => void }) {
         <div className="flex flex-col">
           <label htmlFor="resourceId" className="mb-1 font-medium">Resource ID</label>
           <input id="resourceId" name="resourceId" value={log.resourceId} onChange={handleChange} placeholder="e.g. server-123" className="border p-2 rounded focus:ring-2 focus:ring-blue-400" required />
-        </div>
-        <div className="flex flex-col">
-          <label htmlFor="timestamp" className="mb-1 font-medium">Timestamp</label>
-          <input id="timestamp" name="timestamp" value={log.timestamp} onChange={handleChange} placeholder="YYYY-MM-DDTHH:MM:SSZ" className="border p-2 rounded focus:ring-2 focus:ring-blue-400" required />
         </div>
         <div className="flex flex-col">
           <label htmlFor="traceId" className="mb-1 font-medium">Trace ID</label>

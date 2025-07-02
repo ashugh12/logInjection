@@ -46,5 +46,29 @@
     "metadata": {
       "user": "Ashutosh"
     }
+  },
+  {
+    "level": "info",
+    "message": "Failed to connect to server",
+    "resourceId": "server-221",
+    "timestamp": "2025-07-02T13:33:55.557Z",
+    "traceId": "abc-def-ghi-jkl",
+    "spanId": "span-2221",
+    "commit": "4332s2",
+    "metadata": {
+      "usser": "Ashutosh"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Failed to connect to server",
+    "resourceId": "bkbkk",
+    "timestamp": "2025-07-02T14:08:56.530Z",
+    "traceId": "sdsdsd",
+    "spanId": "sdsdsd",
+    "commit": "sdsddsd",
+    "metadata": {
+      "user": "iet"
+    }
   }
 ]

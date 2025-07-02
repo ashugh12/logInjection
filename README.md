@@ -80,10 +80,6 @@ npm start
 cd ../frontend
 npm run dev
 ```
-
-- Frontend: http://localhost:5173
-- Backend:  http://localhost:5000
-
 ---
 
 ## Implementation & Logic
