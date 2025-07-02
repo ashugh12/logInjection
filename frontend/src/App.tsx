@@ -41,17 +41,3 @@ export default function App() {
     </div>
   );
 }
-
-
-// import React from "react";
-// import './index.css';
-// export default function App() {
-//   return (
-//     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-blue-200">
-//       <div className="p-8 bg-white rounded-lg shadow-lg text-center">
-//         <h1 className="text-4xl font-bold text-blue-700 mb-2">Hello, World!</h1>
-//         <p className="text-gray-600">Welcome to your Tailwind-powered app.</p>
-//       </div>
-//     </div>
-//   );
-// }
