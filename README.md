@@ -53,8 +53,7 @@ log-ingestion-system/
 
 ### 1. Clone the repository
 ```bash
-git clone <repo-url>
-cd log-ingestion-system
+git clone https://github.com/ashugh12/logInjection.git
 ```
 
 ### 2. Install dependencies
