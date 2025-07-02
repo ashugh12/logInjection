@@ -120,5 +120,5 @@ npm run dev
 ---
 
 ## Credits
-- Created by Ashutosh and contributors.
+- Created by Ashutosh and Cursor IDE.
 ̌
