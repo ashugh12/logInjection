@@ -119,17 +119,6 @@ npm run dev
 
 ---
 
-## Customization
-- Swap out the JSON file for a real database (MongoDB, PostgreSQL, etc.) by updating `backend/db/logs.js`.
-- Add authentication, advanced filtering, or log analytics as needed.
-
----
-
-## License
-MIT. See LICENSE file.
-
----
-
 ## Credits
 - Created by Ashutosh and contributors.
 ̌
